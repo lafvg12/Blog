@@ -10,6 +10,11 @@ a {
     color: black;
 }
 
+.grid-container {
+    max-width: 980px;
+    margin: auto;
+}
+
 .home-body {
     position: fixed;
     top: 0;
@@ -160,7 +165,10 @@ main .boton-principal  button a {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 2fr;
-    background-color: #008891;
+    background-image: url("https://sergimateo.com/wp-content/2008/01/paisajesmateo.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .blogs-main-new h3 {
@@ -261,7 +269,8 @@ h1 {
     display: inline-block;
     padding-left: 10px;
     max-width: 30%;
-    margin: 15px 15px 30px 15px;
+    /*margin: 15px 15px 30px 15px;*/
+    margin-bottom: 25px;
     
 }
 
@@ -299,4 +308,76 @@ footer {
 footer p {
     color: white;
     margin-top: 25px;
+}
+
+.blogpost-img-container {
+    padding: 0 50px 40px;
+}
+
+.blogpost-img-container img {
+    width: 100%;
+}
+
+.blogpost-main-container {
+    padding: 0 50px 40px;
+}
+
+.blogpost-main-container h3 {
+    border-bottom:  1px solid gray;
+    padding-bottom: 20px;
+}
+
+.blogpost-main-container article h1 {
+    font-size: 35px;
+}
+
+.contact-main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #9dab86;
+    height: 250px;
+}
+
+.contact-main-container a {
+    border-bottom: 2px solid black;
+}
+
+.contact-left {
+    grid: 1;
+    display: inline-flex;
+    width: 100%;
+}
+
+.contact-left img {
+    width:70px;
+    height: 70px;
+    margin: auto;
+    margin-right: 12px;
+    margin-top: 75px;
+}
+
+.contenedor-parrafo {
+    width: 50%;
+    margin: auto;
+    margin-left: 0px;
+}
+
+.contact-main-container .contact-right {
+    display: inline-flex;
+    width: 100%;
+}
+
+.contact-main-container .contact-right img {
+    width:70px;
+    height: 70px;
+    margin: auto;
+    margin-right: 12px;
+    margin-top: 75px;
+}
+
+.contenedor-parrafo-derecho {
+    width: 50%;
+    margin: auto;
+    margin-left: 0px;
+    padding-top: 75px;
 }
